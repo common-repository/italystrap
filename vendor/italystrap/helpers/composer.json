@@ -1,0 +1,23 @@
+{
+    "name": "italystrap/helpers",
+    "description": "ItalyStrap Helpers",
+    "type": "library",
+    "keywords": ["WordPress", "ItalyStrap", "helpers", "functions", "collection"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "overclokk",
+            "email": "info@overclokk.net",
+            "homepage": "https://www.italystrap.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": ["src/autoload.php"]
+    },
+    "require": {
+        "php": ">=7.0",
+        "italystrap/html": "^1.1.0"
+    }
+}

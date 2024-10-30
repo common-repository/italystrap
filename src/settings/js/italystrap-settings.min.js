@@ -1,0 +1,1 @@
+!function(t){"use strict";t(function(){t("#tabs").tabs();t("tr .hard, tr .medium")})}(jQuery);

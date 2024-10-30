@@ -1,0 +1,56 @@
+{
+    "name": "italystrap/empress",
+    "description": "Config driven for Auryn Injector the OOP way",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "overclokk",
+            "email": "info@overclokk.net",
+            "homepage": "https://www.italystrap.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php" : ">=7.2",
+        "rdlowrey/auryn": "^1.4",
+        "italystrap/config": "^2.2",
+        "ocramius/proxy-manager": "^2.2"
+    },
+    "require-dev": {
+        "lucatume/wp-browser": "~2.2",
+        "lucatume/function-mocker-le": "^1.0",
+        "italystrap/debug": "~2.0",
+        "wp-coding-standards/wpcs": "^2.1",
+        "phpcompatibility/php-compatibility": "*",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+        "phpstan/phpstan": "^0.11.16",
+        "szepeviktor/phpstan-wordpress": "^0.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ItalyStrap\\Empress\\": "src/"
+        },
+        "files": [
+            "bridge/Injector.php"
+        ]
+    },
+    "suggest": {
+        "elazar/auryn-container-interop": "Only if you want to add a psr/container adapter, not required for this package",
+        "northwoods/container": "Only if you want to add a psr/container adapter, not required for this package"
+    },
+    "scripts": {
+        "check": [
+            ".\\vendor\\bin\\phpcs -p --standard=PHPCompatibility src",
+            ".\\vendor\\bin\\phpcs -p --standard=WordPress src"
+        ],
+        "test": [
+            "test"
+        ]
+    },
+    "support"    : {
+        "issues": "https://github.com/ItalyStrap/empress/issues",
+        "source": "https://github.com/ItalyStrap/empress"
+    }
+}

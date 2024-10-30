@@ -1,0 +1,85 @@
+{
+    "name": "italystrap/event",
+    "description": "WordPress and Psr-14 Event API the OOP way",
+    "keywords": ["psr", "psr-14", "event", "events", "WordPress", "plugin API", "hook", "hooks"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Enea Overclokk",
+            "email": "info@overclokk.net",
+            "homepage": "https://www.italystrap.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php" : ">=7.2",
+        "psr/log": "^1.1"
+    },
+    "require-dev": {
+        "lucatume/wp-browser": "2.2",
+        "codeception/c3": "2.*",
+        "lucatume/function-mocker-le": "^1.0",
+        "wp-coding-standards/wpcs": "^2.1",
+        "phpcompatibility/php-compatibility": "^9.3",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+        "phpstan/phpstan": "^0.11.16",
+        "szepeviktor/phpstan-wordpress": "^0.3.0",
+        "phpbench/phpbench": "@dev",
+        "infection/infection": "^0.15.3",
+        "vimeo/psalm": "^3.9",
+        "phpmetrics/phpmetrics": "^2.5",
+        "psr/container": "^1.0",
+        "psr/event-dispatcher": "^1.0",
+        "fig/event-dispatcher-util": "^1.0",
+        "crell/tukio": "^1.0",
+        "inpsyde/object-hooks-remover": "^0.1",
+        "italystrap/config": "^2.2",
+        "italystrap/debug": "~2.0",
+        "italystrap/empress": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ItalyStrap\\Event\\": "src/Event/",
+            "ItalyStrap\\PsrDispatcher\\": "src/PsrDispatcher/"
+        }
+    },
+    "provide": {
+        "psr/event-dispatcher-implementation": "1.0"
+    },
+    "suggest": {
+        "italystrap/empress": "Config driven for Auryn Injector the OOP way",
+        "inpsyde/objects-hooks-remover": "Package to remove WordPress hook callbacks that uses object methods or closures."
+    },
+    "scripts": {
+        "test": [
+            "test"
+        ],
+        "cs": [
+            "vendor\\bin\\phpcbf -p --ignore=./tests/_support/* ./src/ ./tests/ && vendor\\bin\\phpcs -p --ignore=./tests/_support/* ./src/ ./tests/"
+        ],
+        "analyze": [
+            "vendor\\bin\\phpstan analyze --level=max && vendor\\bin\\psalm"
+        ],
+        "unit": [
+            "vendor\\bin\\codecept run unit && vendor\\bin\\infection --threads=8"
+        ],
+        "bench": [
+            "vendor\\bin\\phpbench run --report=performance"
+        ],
+        "metrics": [
+            "vendor\\bin\\phpmetrics --report-html='./tests/_output/report' ./src"
+        ],
+        "insights": [
+            "vendor\\bin\\phpinsights"
+        ],
+        "clean": [
+            "vendor\\bin\\codecept clean"
+        ]
+    },
+    "support"    : {
+        "issues": "https://github.com/ItalyStrap/event/issues",
+        "source": "https://github.com/ItalyStrap/event"
+    }
+}

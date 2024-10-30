@@ -1,0 +1,128 @@
+{
+    "name": "italystrap/config",
+    "description": "ItalyStrap Config Module - a simple and useful configuration package the OOP way",
+    "keywords": ["Config", "Configuration Object"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Enea Overclokk",
+            "email": "info@overclokk.net",
+            "homepage": "https://www.italystrap.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php" : ">=7.4"
+    },
+    "require-dev": {
+        "lucatume/wp-browser": "^2.0",
+        "lucatume/function-mocker-le": "^1.0",
+        "codeception/module-asserts": "^2.0",
+        "phpspec/prophecy-phpunit": "^2.0",
+        "infection/infection": "^0.26.6",
+        "rector/rector": "^0.14.0",
+        "vimeo/psalm": "^4.26",
+        "infection/codeception-adapter": "^0.4.1",
+        "squizlabs/php_codesniffer": "^3.7",
+        "phpcompatibility/php-compatibility": "^9.3",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
+        "phpbench/phpbench": "^1.2",
+        "italystrap/event": "dev-master",
+        "humanmade/psalm-plugin-wordpress": "^2.0",
+        "phpstan/phpstan": "^1.8",
+        "phpmetrics/phpmetrics": "^2.8",
+        "italystrap/debug": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ItalyStrap\\Config\\": "src/"
+        },
+        "classmap": [
+            "legacy/"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ],
+        "psr-4": {
+            "ItalyStrap\\Tests\\": "tests/"
+        },
+        "files": [
+            "tests/_data/Stubs/ConfigKeys.php"
+        ]
+    },
+    "suggest": {
+        "italystrap/event": "EventDispatcher for WordPress"
+    },
+    "scripts": {
+        "test": [
+            "@cs",
+            "@psalm",
+            "@unit",
+            "@infection",
+            "@examples"
+        ],
+        "cs": [
+            "@php vendor/bin/phpcs -p --ignore=./tests/_support/* ./src/ ./tests/"
+        ],
+        "cs:fix": [
+            "@php vendor/bin/phpcbf -p --ignore=./tests/_support/* ./src/ ./tests/"
+        ],
+        "phpstan": [
+            "@php vendor/bin/phpstan analyze --level=max"
+        ],
+        "psalm": [
+            "@php vendor/bin/psalm --no-cache"
+        ],
+        "static:all": [
+            "@php vendor/bin/phpstan analyze --level=max && @php vendor/bin/psalm"
+        ],
+        "unit": [
+            "@php vendor/bin/codecept run unit",
+            "@clean"
+        ],
+        "unit:debug": [
+            "@php vendor/bin/codecept run unit --debug",
+            "@clean"
+        ],
+        "infection": [
+            "@php vendor/bin/infection --threads=4"
+        ],
+        "bench": [
+            "@php vendor/bin/phpbench run --report=stats"
+        ],
+        "bench:prev": [
+            "@php vendor/bin/phpbench run --report=stats --tag=original"
+        ],
+        "bench:compare:prev": [
+            "@php vendor/bin/phpbench run --report=stats --ref=original"
+        ],
+        "metrics": [
+            "@php vendor/bin/phpmetrics --report-html='./tests/_output/report' ./src"
+        ],
+        "insights": [
+            "@php vendor/bin/phpinsights"
+        ],
+        "clean": [
+            "@php vendor/bin/codecept clean"
+        ],
+        "examples": [
+            "@php index.php"
+        ]
+    },
+    "support"    : {
+        "issues": "https://github.com/ItalyStrap/config/issues",
+        "source": "https://github.com/ItalyStrap/config"
+    },
+    "config": {
+        "allow-plugins": {
+            "codeception/c3": true,
+            "composer/package-versions-deprecated": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "infection/extension-installer": true
+        }
+    }
+}

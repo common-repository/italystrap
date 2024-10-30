@@ -1,0 +1,55 @@
+{
+    "name": "italystrap/settings",
+    "description": "Settings API for WordPress",
+    "keywords": ["wordpress","settings","framework"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "overclokk",
+            "email": "info@overclokk.net",
+            "homepage": "https://www.italystrap.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php" : ">=7.2",
+        "italystrap/cleaner": "^1.1",
+        "italystrap/config": "^2.2",
+        "italystrap/fields": "^2.0"
+    },
+    "require-dev": {
+        "lucatume/wp-browser": "2.2",
+        "lucatume/function-mocker-le": "^1.0",
+        "italystrap/debug": "~2.0",
+        "wp-coding-standards/wpcs": "^2.1",
+        "phpcompatibility/php-compatibility": "*",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+        "phpstan/phpstan": "^0.12",
+        "szepeviktor/phpstan-wordpress": "^0.5",
+        "rdlowrey/auryn": "^1.4",
+        "ocramius/proxy-manager": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "ItalyStrap\\I18N\\": "src/I18N/",
+            "ItalyStrap\\DataParser\\": "src/DataParser/",
+            "ItalyStrap\\FileHeader\\": "src/FileHeader/",
+            "ItalyStrap\\Settings\\": "src/Settings/"
+        }
+    },
+    "scripts": {
+        "check": [
+            "phpcs -p -s --standard=phpcs.xml src",
+            "phpstan analyse"
+        ],
+        "test": [
+            "test"
+        ]
+    },
+    "support"    : {
+        "issues": "https://github.com/ItalyStrap/settings/issues",
+        "source": "https://github.com/ItalyStrap/settings"
+    }
+}

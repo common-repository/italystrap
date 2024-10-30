@@ -1,0 +1,1302 @@
+{
+    "packages": [
+        {
+            "name": "cmb2/cmb2",
+            "version": "v2.6.0",
+            "version_normalized": "2.6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CMB2/CMB2.git",
+                "reference": "008d9b83263d971d6bd41c27e31113db852d5ef3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CMB2/CMB2/zipball/008d9b83263d971d6bd41c27e31113db852d5ef3",
+                "reference": "008d9b83263d971d6bd41c27e31113db852d5ef3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.2.4"
+            },
+            "require-dev": {
+                "apigen/apigen": "4.1.2",
+                "nette/utils": "2.5.3",
+                "phpunit/phpunit": "6.5.13"
+            },
+            "suggest": {
+                "composer/installers": "~1.0"
+            },
+            "time": "2019-01-21T04:30:08+00:00",
+            "type": "wordpress-plugin",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "WebDevStudios",
+                    "email": "contact@webdevstudios.com",
+                    "homepage": "https://github.com/WebDevStudios",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Justin Sternberg",
+                    "email": "justin@dsgnwrks.pro",
+                    "homepage": "https://dsgnwrks.pro",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CMB2 is a metabox, custom fields, and forms library for WordPress that will blow your mind.",
+            "homepage": "https://github.com/CMB2/CMB2",
+            "keywords": [
+                "metabox",
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/CMB2/CMB2/issues",
+                "source": "http://wordpress.org/support/plugin/cmb2"
+            },
+            "install-path": "../cmb2/cmb2"
+        },
+        {
+            "name": "erusev/parsedown",
+            "version": "1.7.4",
+            "version_normalized": "1.7.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown.git",
+                "reference": "cb17b6477dfff935958ba01325f2e8a2bfa6dab3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/cb17b6477dfff935958ba01325f2e8a2bfa6dab3",
+                "reference": "cb17b6477dfff935958ba01325f2e8a2bfa6dab3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35"
+            },
+            "time": "2019-12-30T22:54:17+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Parsedown": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "Parser for Markdown.",
+            "homepage": "http://parsedown.org",
+            "keywords": [
+                "markdown",
+                "parser"
+            ],
+            "support": {
+                "issues": "https://github.com/erusev/parsedown/issues",
+                "source": "https://github.com/erusev/parsedown/tree/1.7.x"
+            },
+            "install-path": "../erusev/parsedown"
+        },
+        {
+            "name": "inpsyde/menu-cache",
+            "version": "1.4.2",
+            "version_normalized": "1.4.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/inpsyde/menu-cache.git",
+                "reference": "8f521ad59b3a6f9f3537140388a4d937bcc9de67"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/inpsyde/menu-cache/zipball/8f521ad59b3a6f9f3537140388a4d937bcc9de67",
+                "reference": "8f521ad59b3a6f9f3537140388a4d937bcc9de67",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "brain/monkey": "^1.5.0",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5",
+                "mockery/mockery": "~0.9",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "phpunit/phpunit": "~4.8|~5.1",
+                "squizlabs/php_codesniffer": "^3.0",
+                "wp-coding-standards/wpcs": "^2.2"
+            },
+            "time": "2019-12-10T12:18:21+00:00",
+            "type": "wordpress-plugin",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Inpsyde\\MenuCache\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Inpsyde GmbH",
+                    "email": "hello@inpsyde.com",
+                    "homepage": "https://inpsyde.com",
+                    "role": "Company"
+                },
+                {
+                    "name": "Thorsten Frommen",
+                    "email": "t.frommen@inpsyde.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "David Naber",
+                    "email": "d.naber@inpsyde.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easily cache rendered menus using the Transients API.",
+            "keywords": [
+                "cache",
+                "menu",
+                "nav-menu",
+                "plugin",
+                "transient",
+                "wordpress",
+                "wp",
+                "wp_nav_menu"
+            ],
+            "support": {
+                "issues": "https://github.com/inpsyde/menu-cache/issues",
+                "source": "https://github.com/inpsyde/menu-cache"
+            },
+            "install-path": "../inpsyde/menu-cache"
+        },
+        {
+            "name": "italystrap/breadcrumbs",
+            "version": "2.0.1",
+            "version_normalized": "2.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ItalyStrap/breadcrumbs.git",
+                "reference": "9b8e79bcbf40cdf7d14c4f3c9acbb9d8a6f87163"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ItalyStrap/breadcrumbs/zipball/9b8e79bcbf40cdf7d14c4f3c9acbb9d8a6f87163",
+                "reference": "9b8e79bcbf40cdf7d14c4f3c9acbb9d8a6f87163",
+                "shasum": ""
+            },
+            "require": {
+                "italystrap/config": "^2.0",
+                "italystrap/helpers": "^1.0",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "brianium/paratest": "^4.0",
+                "codeception/c3": "2.*",
+                "codeception/module-asserts": "^1.0",
+                "codeception/module-cli": "^1.0",
+                "codeception/module-db": "^1.0",
+                "codeception/module-filesystem": "^1.0",
+                "codeception/module-phpbrowser": "^1.0",
+                "codeception/module-webdriver": "^1.0",
+                "codeception/util-universalframework": "^1.0",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "infection/infection": "^0.15.3",
+                "italystrap/debug": "^2.0",
+                "lucatume/function-mocker-le": "^1.0",
+                "lucatume/wp-browser": "^2.4",
+                "nunomaduro/phpinsights": "^1.14.0",
+                "phpbench/phpbench": "@dev",
+                "phpcompatibility/php-compatibility": "*",
+                "phpmetrics/phpmetrics": "^2.5",
+                "phpstan/phpstan": "^0.12",
+                "squizlabs/php_codesniffer": "*",
+                "szepeviktor/phpstan-wordpress": "^0.5",
+                "vimeo/psalm": "^3.9"
+            },
+            "time": "2020-08-22T15:55:20+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ItalyStrap\\Breadcrumbs\\": "src/Breadcrumbs/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Enea Overclokk",
+                    "email": "info@overclokk.net",
+                    "homepage": "https://www.italystrap.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "ItalyStrap Breadcrumbs Class",
+            "keywords": [
+                "breadcrumbs",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/ItalyStrap/breacrumbs/issues",
+                "source": "https://github.com/ItalyStrap/breacrumbs"
+            },
+            "install-path": "../italystrap/breadcrumbs"
+        },
+        {
+            "name": "italystrap/cleaner",
+            "version": "1.2.0",
+            "version_normalized": "1.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ItalyStrap/cleaner.git",
+                "reference": "7043f583b71ba33cfb01cddaed3e3d6a8c985a8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ItalyStrap/cleaner/zipball/7043f583b71ba33cfb01cddaed3e3d6a8c985a8d",
+                "reference": "7043f583b71ba33cfb01cddaed3e3d6a8c985a8d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "italystrap/debug": "~2.0",
+                "lucatume/function-mocker-le": "^1.0",
+                "lucatume/wp-browser": "~2.2",
+                "phpcompatibility/php-compatibility": "*",
+                "phpstan/phpstan": "^0.11.16",
+                "szepeviktor/phpstan-wordpress": "^0.3.0",
+                "wp-coding-standards/wpcs": "^2.1"
+            },
+            "time": "2019-12-27T12:37:48+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "functions/helpers.php"
+                ],
+                "psr-4": {
+                    "ItalyStrap\\Cleaner\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "overclokk",
+                    "email": "info@overclokk.net",
+                    "homepage": "https://www.italystrap.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Data cleaner for PHP",
+            "support": {
+                "issues": "https://github.com/ItalyStrap/cleaner/issues",
+                "source": "https://github.com/ItalyStrap/cleaner"
+            },
+            "install-path": "../italystrap/cleaner"
+        },
+        {
+            "name": "italystrap/config",
+            "version": "2.6.1",
+            "version_normalized": "2.6.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ItalyStrap/config.git",
+                "reference": "57f7bc5e1f05746dc76a036faf3cabbc6d23b997"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ItalyStrap/config/zipball/57f7bc5e1f05746dc76a036faf3cabbc6d23b997",
+                "reference": "57f7bc5e1f05746dc76a036faf3cabbc6d23b997",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "codeception/module-asserts": "^2.0",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
+                "humanmade/psalm-plugin-wordpress": "^2.0",
+                "infection/codeception-adapter": "^0.4.1",
+                "infection/infection": "^0.26.6",
+                "italystrap/debug": "^2.1",
+                "italystrap/event": "dev-master",
+                "lucatume/function-mocker-le": "^1.0",
+                "lucatume/wp-browser": "^2.0",
+                "phpbench/phpbench": "^1.2",
+                "phpcompatibility/php-compatibility": "^9.3",
+                "phpmetrics/phpmetrics": "^2.8",
+                "phpspec/prophecy-phpunit": "^2.0",
+                "phpstan/phpstan": "^1.8",
+                "rector/rector": "^0.14.0",
+                "squizlabs/php_codesniffer": "^3.7",
+                "vimeo/psalm": "^4.26"
+            },
+            "suggest": {
+                "italystrap/event": "EventDispatcher for WordPress"
+            },
+            "time": "2023-02-05T16:27:35+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ItalyStrap\\Config\\": "src/"
+                },
+                "classmap": [
+                    "legacy/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Enea Overclokk",
+                    "email": "info@overclokk.net",
+                    "homepage": "https://www.italystrap.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "ItalyStrap Config Module - a simple and useful configuration package the OOP way",
+            "keywords": [
+                "Configuration Object",
+                "config"
+            ],
+            "support": {
+                "issues": "https://github.com/ItalyStrap/config/issues",
+                "source": "https://github.com/ItalyStrap/config"
+            },
+            "install-path": "../italystrap/config"
+        },
+        {
+            "name": "italystrap/edd",
+            "version": "0.0.1",
+            "version_normalized": "0.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ItalyStrap/edd.git",
+                "reference": "b2511aa9593314994349709936774dcae2e37b4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ItalyStrap/edd/zipball/b2511aa9593314994349709936774dcae2e37b4e",
+                "reference": "b2511aa9593314994349709936774dcae2e37b4e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "italystrap/debug": "~2.0",
+                "lucatume/function-mocker-le": "^1.0",
+                "lucatume/wp-browser": "~2.2",
+                "phpcompatibility/php-compatibility": "*",
+                "phpstan/phpstan": "^0.12",
+                "szepeviktor/phpstan-wordpress": "^0.5",
+                "wp-coding-standards/wpcs": "^2.1"
+            },
+            "time": "2020-01-09T06:43:26+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/bootstrap.php"
+                ],
+                "psr-4": {
+                    "ItalyStrap\\EDD\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "overclokk",
+                    "email": "info@overclokk.net",
+                    "homepage": "https://www.italystrap.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Updater plugin for the ItalyStrap Framework",
+            "keywords": [
+                "edd",
+                "update",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/ItalyStrap/settings/issues",
+                "source": "https://github.com/ItalyStrap/settings"
+            },
+            "install-path": "../italystrap/edd"
+        },
+        {
+            "name": "italystrap/empress",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ItalyStrap/empress.git",
+                "reference": "f7a1d95c8633306f7a01f78d6b43433478766a8f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ItalyStrap/empress/zipball/f7a1d95c8633306f7a01f78d6b43433478766a8f",
+                "reference": "f7a1d95c8633306f7a01f78d6b43433478766a8f",
+                "shasum": ""
+            },
+            "require": {
+                "italystrap/config": "^2.2",
+                "ocramius/proxy-manager": "^2.2",
+                "php": ">=7.2",
+                "rdlowrey/auryn": "^1.4"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "italystrap/debug": "~2.0",
+                "lucatume/function-mocker-le": "^1.0",
+                "lucatume/wp-browser": "~2.2",
+                "phpcompatibility/php-compatibility": "*",
+                "phpstan/phpstan": "^0.11.16",
+                "szepeviktor/phpstan-wordpress": "^0.3.0",
+                "wp-coding-standards/wpcs": "^2.1"
+            },
+            "suggest": {
+                "elazar/auryn-container-interop": "Only if you want to add a psr/container adapter, not required for this package",
+                "northwoods/container": "Only if you want to add a psr/container adapter, not required for this package"
+            },
+            "time": "2020-01-30T19:39:03+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "bridge/Injector.php"
+                ],
+                "psr-4": {
+                    "ItalyStrap\\Empress\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "overclokk",
+                    "email": "info@overclokk.net",
+                    "homepage": "https://www.italystrap.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Config driven for Auryn Injector the OOP way",
+            "support": {
+                "issues": "https://github.com/ItalyStrap/empress/issues",
+                "source": "https://github.com/ItalyStrap/empress"
+            },
+            "install-path": "../italystrap/empress"
+        },
+        {
+            "name": "italystrap/event",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ItalyStrap/event.git",
+                "reference": "3055c7a78f7b0450a20c1fbf085e98d5b8a15ca1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ItalyStrap/event/zipball/3055c7a78f7b0450a20c1fbf085e98d5b8a15ca1",
+                "reference": "3055c7a78f7b0450a20c1fbf085e98d5b8a15ca1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2",
+                "psr/log": "^1.1"
+            },
+            "provide": {
+                "psr/event-dispatcher-implementation": "1.0"
+            },
+            "require-dev": {
+                "codeception/c3": "2.*",
+                "crell/tukio": "^1.0",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "fig/event-dispatcher-util": "^1.0",
+                "infection/infection": "^0.15.3",
+                "inpsyde/object-hooks-remover": "^0.1",
+                "italystrap/config": "^2.2",
+                "italystrap/debug": "~2.0",
+                "italystrap/empress": "~1.0",
+                "lucatume/function-mocker-le": "^1.0",
+                "lucatume/wp-browser": "2.2",
+                "phpbench/phpbench": "@dev",
+                "phpcompatibility/php-compatibility": "^9.3",
+                "phpmetrics/phpmetrics": "^2.5",
+                "phpstan/phpstan": "^0.11.16",
+                "psr/container": "^1.0",
+                "psr/event-dispatcher": "^1.0",
+                "szepeviktor/phpstan-wordpress": "^0.3.0",
+                "vimeo/psalm": "^3.9",
+                "wp-coding-standards/wpcs": "^2.1"
+            },
+            "suggest": {
+                "inpsyde/objects-hooks-remover": "Package to remove WordPress hook callbacks that uses object methods or closures.",
+                "italystrap/empress": "Config driven for Auryn Injector the OOP way"
+            },
+            "time": "2020-08-05T19:43:28+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ItalyStrap\\Event\\": "src/Event/",
+                    "ItalyStrap\\PsrDispatcher\\": "src/PsrDispatcher/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Enea Overclokk",
+                    "email": "info@overclokk.net",
+                    "homepage": "https://www.italystrap.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WordPress and Psr-14 Event API the OOP way",
+            "keywords": [
+                "HOOK",
+                "event",
+                "events",
+                "hooks",
+                "plugin API",
+                "psr",
+                "psr-14",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/ItalyStrap/event/issues",
+                "source": "https://github.com/ItalyStrap/event"
+            },
+            "install-path": "../italystrap/event"
+        },
+        {
+            "name": "italystrap/fields",
+            "version": "2.0.2",
+            "version_normalized": "2.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ItalyStrap/fields.git",
+                "reference": "8555437c3ebc04abc1b7cf06a8b6c464c6d0e229"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ItalyStrap/fields/zipball/8555437c3ebc04abc1b7cf06a8b6c464c6d0e229",
+                "reference": "8555437c3ebc04abc1b7cf06a8b6c464c6d0e229",
+                "shasum": ""
+            },
+            "require": {
+                "italystrap/config": "*",
+                "italystrap/html": "^1.1.2",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "italystrap/debug": "*",
+                "lucatume/function-mocker-le": "^1.0",
+                "lucatume/wp-browser": "2.2",
+                "phpcompatibility/php-compatibility": "*",
+                "phpstan/phpstan": "^0.11.16",
+                "squizlabs/php_codesniffer": "^3.0",
+                "szepeviktor/phpstan-wordpress": "^0.3.0",
+                "wp-coding-standards/wpcs": "^2.1"
+            },
+            "time": "2020-08-27T18:20:43+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ItalyStrap\\Fields\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "overclokk",
+                    "email": "info@overclokk.net",
+                    "homepage": "https://www.italystrap.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Classes and functions for handling fields",
+            "support": {
+                "issues": "https://github.com/ItalyStrap/fields/issues",
+                "source": "https://github.com/ItalyStrap/fields"
+            },
+            "install-path": "../italystrap/fields"
+        },
+        {
+            "name": "italystrap/helpers",
+            "version": "1.1.0",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ItalyStrap/helpers.git",
+                "reference": "d1711344178c1fa30499cd65a70c81c555c4ee08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ItalyStrap/helpers/zipball/d1711344178c1fa30499cd65a70c81c555c4ee08",
+                "reference": "d1711344178c1fa30499cd65a70c81c555c4ee08",
+                "shasum": ""
+            },
+            "require": {
+                "italystrap/html": "^1.1.0",
+                "php": ">=7.0"
+            },
+            "time": "2019-12-10T10:58:26+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/autoload.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "overclokk",
+                    "email": "info@overclokk.net",
+                    "homepage": "https://www.italystrap.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "ItalyStrap Helpers",
+            "keywords": [
+                "ItalyStrap",
+                "collection",
+                "functions",
+                "helpers",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/ItalyStrap/helpers/issues",
+                "source": "https://github.com/ItalyStrap/helpers/tree/master"
+            },
+            "install-path": "../italystrap/helpers"
+        },
+        {
+            "name": "italystrap/html",
+            "version": "1.2.0",
+            "version_normalized": "1.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ItalyStrap/html.git",
+                "reference": "c3c6c937a7be968a4068df1b9b1f01e040c29498"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ItalyStrap/html/zipball/c3c6c937a7be968a4068df1b9b1f01e040c29498",
+                "reference": "c3c6c937a7be968a4068df1b9b1f01e040c29498",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "fig/link-util": "^1.1",
+                "italystrap/debug": "~2.0",
+                "lucatume/function-mocker-le": "^1.0",
+                "lucatume/wp-browser": "~2.2",
+                "phpcompatibility/php-compatibility": "9.3.*",
+                "psr/link": "^1.0",
+                "szepeviktor/phpstan-wordpress": "^0.6.0",
+                "wp-coding-standards/wpcs": "^2.1"
+            },
+            "suggest": {
+                "widoz/bem": "BEM library - Take advantage of the bem syntax throught an object"
+            },
+            "time": "2020-03-06T10:42:50+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "ItalyStrap\\HTML\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "overclokk",
+                    "email": "info@overclokk.net",
+                    "homepage": "https://www.italystrap.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "HTML tag and attributes generator in PHP",
+            "support": {
+                "issues": "https://github.com/ItalyStrap/html/issues",
+                "source": "https://github.com/ItalyStrap/html"
+            },
+            "install-path": "../italystrap/html"
+        },
+        {
+            "name": "italystrap/settings",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ItalyStrap/settings.git",
+                "reference": "84cd2cba6ade00c7f0dc0e1ebaea7fc783d122fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ItalyStrap/settings/zipball/84cd2cba6ade00c7f0dc0e1ebaea7fc783d122fb",
+                "reference": "84cd2cba6ade00c7f0dc0e1ebaea7fc783d122fb",
+                "shasum": ""
+            },
+            "require": {
+                "italystrap/cleaner": "^1.1",
+                "italystrap/config": "^2.2",
+                "italystrap/fields": "^2.0",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "italystrap/debug": "~2.0",
+                "lucatume/function-mocker-le": "^1.0",
+                "lucatume/wp-browser": "2.2",
+                "ocramius/proxy-manager": "^2.2",
+                "phpcompatibility/php-compatibility": "*",
+                "phpstan/phpstan": "^0.12",
+                "rdlowrey/auryn": "^1.4",
+                "szepeviktor/phpstan-wordpress": "^0.5",
+                "wp-coding-standards/wpcs": "^2.1"
+            },
+            "time": "2020-08-29T08:14:12+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ItalyStrap\\I18N\\": "src/I18N/",
+                    "ItalyStrap\\Settings\\": "src/Settings/",
+                    "ItalyStrap\\DataParser\\": "src/DataParser/",
+                    "ItalyStrap\\FileHeader\\": "src/FileHeader/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "overclokk",
+                    "email": "info@overclokk.net",
+                    "homepage": "https://www.italystrap.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Settings API for WordPress",
+            "keywords": [
+                "Settings",
+                "framework",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/ItalyStrap/settings/issues",
+                "source": "https://github.com/ItalyStrap/settings"
+            },
+            "install-path": "../italystrap/settings"
+        },
+        {
+            "name": "laminas/laminas-code",
+            "version": "4.7.1",
+            "version_normalized": "4.7.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laminas/laminas-code.git",
+                "reference": "91aabc066d5620428120800c0eafc0411e441a62"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laminas/laminas-code/zipball/91aabc066d5620428120800c0eafc0411e441a62",
+                "reference": "91aabc066d5620428120800c0eafc0411e441a62",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4, <8.2"
+            },
+            "require-dev": {
+                "doctrine/annotations": "^1.13.2",
+                "ext-phar": "*",
+                "laminas/laminas-coding-standard": "^2.3.0",
+                "laminas/laminas-stdlib": "^3.6.1",
+                "phpunit/phpunit": "^9.5.10",
+                "psalm/plugin-phpunit": "^0.17.0",
+                "vimeo/psalm": "^4.13.1"
+            },
+            "suggest": {
+                "doctrine/annotations": "Doctrine\\Common\\Annotations >=1.0 for annotation features",
+                "laminas/laminas-stdlib": "Laminas\\Stdlib component"
+            },
+            "time": "2022-11-21T01:32:31+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "polyfill/ReflectionEnumPolyfill.php"
+                ],
+                "psr-4": {
+                    "Laminas\\Code\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Extensions to the PHP Reflection API, static code scanning, and code generation",
+            "homepage": "https://laminas.dev",
+            "keywords": [
+                "code",
+                "laminas",
+                "laminasframework"
+            ],
+            "support": {
+                "chat": "https://laminas.dev/chat",
+                "docs": "https://docs.laminas.dev/laminas-code/",
+                "forum": "https://discourse.laminas.dev",
+                "issues": "https://github.com/laminas/laminas-code/issues",
+                "rss": "https://github.com/laminas/laminas-code/releases.atom",
+                "source": "https://github.com/laminas/laminas-code"
+            },
+            "funding": [
+                {
+                    "url": "https://funding.communitybridge.org/projects/laminas-project",
+                    "type": "community_bridge"
+                }
+            ],
+            "install-path": "../laminas/laminas-code"
+        },
+        {
+            "name": "mobiledetect/mobiledetectlib",
+            "version": "2.8.41",
+            "version_normalized": "2.8.41.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/serbanghita/Mobile-Detect.git",
+                "reference": "fc9cccd4d3706d5a7537b562b59cc18f9e4c0cb1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/serbanghita/Mobile-Detect/zipball/fc9cccd4d3706d5a7537b562b59cc18f9e4c0cb1",
+                "reference": "fc9cccd4d3706d5a7537b562b59cc18f9e4c0cb1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8.35||~5.7"
+            },
+            "time": "2022-11-08T18:31:26+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Detection": "namespaced/"
+                },
+                "classmap": [
+                    "Mobile_Detect.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Serban Ghita",
+                    "email": "serbanghita@gmail.com",
+                    "homepage": "http://mobiledetect.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Mobile_Detect is a lightweight PHP class for detecting mobile devices. It uses the User-Agent string combined with specific HTTP headers to detect the mobile environment.",
+            "homepage": "https://github.com/serbanghita/Mobile-Detect",
+            "keywords": [
+                "detect mobile devices",
+                "mobile",
+                "mobile detect",
+                "mobile detector",
+                "php mobile detect"
+            ],
+            "support": {
+                "issues": "https://github.com/serbanghita/Mobile-Detect/issues",
+                "source": "https://github.com/serbanghita/Mobile-Detect/tree/2.8.41"
+            },
+            "install-path": "../mobiledetect/mobiledetectlib"
+        },
+        {
+            "name": "ocramius/proxy-manager",
+            "version": "2.14.1",
+            "version_normalized": "2.14.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ocramius/ProxyManager.git",
+                "reference": "3990d60ef79001badbab4927a6a811682274a0d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ocramius/ProxyManager/zipball/3990d60ef79001badbab4927a6a811682274a0d1",
+                "reference": "3990d60ef79001badbab4927a6a811682274a0d1",
+                "shasum": ""
+            },
+            "require": {
+                "composer-runtime-api": "^2.1.0",
+                "laminas/laminas-code": "^4.4.2",
+                "php": "~8.0.0",
+                "webimpress/safe-writer": "^2.2.0"
+            },
+            "conflict": {
+                "thecodingmachine/safe": "<1.3.3"
+            },
+            "require-dev": {
+                "codelicia/xulieta": "^0.1.6",
+                "doctrine/coding-standard": "^9.0.0",
+                "ext-phar": "*",
+                "phpbench/phpbench": "^1.0.3",
+                "phpunit/phpunit": "^9.5.6",
+                "roave/infection-static-analysis-plugin": "^1.8",
+                "squizlabs/php_codesniffer": "^3.6.0",
+                "vimeo/psalm": "^4.8.1"
+            },
+            "suggest": {
+                "laminas/laminas-json": "To have the JsonRpc adapter (Remote Object feature)",
+                "laminas/laminas-soap": "To have the Soap adapter (Remote Object feature)",
+                "laminas/laminas-xmlrpc": "To have the XmlRpc adapter (Remote Object feature)",
+                "ocramius/generated-hydrator": "To have very fast object to array to object conversion for ghost objects"
+            },
+            "time": "2022-03-05T18:43:14+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ProxyManager\\": "src/ProxyManager"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Pivetta",
+                    "email": "ocramius@gmail.com",
+                    "homepage": "https://ocramius.github.io/"
+                }
+            ],
+            "description": "A library providing utilities to generate, instantiate and generally operate with Object Proxies",
+            "homepage": "https://github.com/Ocramius/ProxyManager",
+            "keywords": [
+                "aop",
+                "lazy loading",
+                "proxy",
+                "proxy pattern",
+                "service proxies"
+            ],
+            "support": {
+                "issues": "https://github.com/Ocramius/ProxyManager/issues",
+                "source": "https://github.com/Ocramius/ProxyManager/tree/2.14.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Ocramius",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/ocramius/proxy-manager",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "../ocramius/proxy-manager"
+        },
+        {
+            "name": "overclokk/minimum-requirements",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/overclokk/minimum-requirements.git",
+                "reference": "aa2d35381209d8dbc4632e2f30c9ef5614feef00"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/overclokk/minimum-requirements/zipball/aa2d35381209d8dbc4632e2f30c9ef5614feef00",
+                "reference": "aa2d35381209d8dbc4632e2f30c9ef5614feef00",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "lucatume/function-mocker": "^1.0",
+                "lucatume/wp-browser": "^1.10"
+            },
+            "time": "2018-12-24T09:07:01+00:00",
+            "type": "wordpress-plugin",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "overclokk",
+                    "email": "info@overclokk.net",
+                    "homepage": "http://www.overclokk.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Check the minimum requirements for your WordPress theme or plugin",
+            "homepage": "https://github.com/overclokk/minimum-requirements",
+            "keywords": [
+                "plugin",
+                "wordpress",
+                "wordpress plugin"
+            ],
+            "support": {
+                "issues": "https://github.com/overclokk/minimum-requirements/issues",
+                "source": "https://github.com/overclokk/minimum-requirements/tree/master"
+            },
+            "install-path": "../overclokk/minimum-requirements"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.1.4",
+            "version_normalized": "1.1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2021-05-03T11:20:27+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/1.1.4"
+            },
+            "install-path": "../psr/log"
+        },
+        {
+            "name": "rdlowrey/auryn",
+            "version": "v1.4.4",
+            "version_normalized": "1.4.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rdlowrey/auryn.git",
+                "reference": "dae57592229d313b59414a2c8334e61e6eb00928"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rdlowrey/auryn/zipball/dae57592229d313b59414a2c8334e61e6eb00928",
+                "reference": "dae57592229d313b59414a2c8334e61e6eb00928",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "athletic/athletic": "~0.1",
+                "fabpot/php-cs-fixer": "~1.9",
+                "phpunit/phpunit": "^4.8"
+            },
+            "time": "2021-03-04T20:26:52+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Auryn\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Lowrey",
+                    "email": "rdlowrey@gmail.com",
+                    "homepage": "https://github.com/rdlowrey",
+                    "role": "Creator / Main Developer"
+                },
+                {
+                    "name": "Levi Morrison",
+                    "email": "levim@php.net",
+                    "homepage": "http://morrisonlevi.github.com/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Dan Ackroyd",
+                    "email": "Danack@basereality.com",
+                    "homepage": "http://www.basereality.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Auryn is a dependency injector for bootstrapping object-oriented PHP applications.",
+            "homepage": "https://github.com/rdlowrey/auryn",
+            "keywords": [
+                "dependency injection",
+                "dic",
+                "ioc"
+            ],
+            "support": {
+                "issues": "https://github.com/rdlowrey/auryn/issues",
+                "source": "https://github.com/rdlowrey/auryn/tree/v1.4.4"
+            },
+            "install-path": "../rdlowrey/auryn"
+        },
+        {
+            "name": "webimpress/safe-writer",
+            "version": "2.2.0",
+            "version_normalized": "2.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webimpress/safe-writer.git",
+                "reference": "9d37cc8bee20f7cb2f58f6e23e05097eab5072e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webimpress/safe-writer/zipball/9d37cc8bee20f7cb2f58f6e23e05097eab5072e6",
+                "reference": "9d37cc8bee20f7cb2f58f6e23e05097eab5072e6",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5.4",
+                "vimeo/psalm": "^4.7",
+                "webimpress/coding-standard": "^1.2.2"
+            },
+            "time": "2021-04-19T16:34:45+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2.x-dev",
+                    "dev-develop": "2.3.x-dev",
+                    "dev-release-1.0": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Webimpress\\SafeWriter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Tool to write files safely, to avoid race conditions",
+            "keywords": [
+                "concurrent write",
+                "file writer",
+                "race condition",
+                "safe writer",
+                "webimpress"
+            ],
+            "support": {
+                "issues": "https://github.com/webimpress/safe-writer/issues",
+                "source": "https://github.com/webimpress/safe-writer/tree/2.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/michalbundyra",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../webimpress/safe-writer"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

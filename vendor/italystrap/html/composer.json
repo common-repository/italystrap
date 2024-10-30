@@ -1,0 +1,53 @@
+{
+    "name": "italystrap/html",
+    "description": "HTML tag and attributes generator in PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "overclokk",
+            "email": "info@overclokk.net",
+            "homepage": "https://www.italystrap.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php" : ">=7.2"
+    },
+    "require-dev": {
+        "lucatume/wp-browser": "~2.2",
+        "lucatume/function-mocker-le": "^1.0",
+        "italystrap/debug": "~2.0",
+        "wp-coding-standards/wpcs": "^2.1",
+        "phpcompatibility/php-compatibility": "9.3.*",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+        "szepeviktor/phpstan-wordpress": "^0.6.0",
+        "psr/link": "^1.0",
+        "fig/link-util": "^1.1"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "ItalyStrap\\HTML\\": "src/"
+        }
+    },
+    "suggest": {
+        "widoz/bem": "BEM library - Take advantage of the bem syntax throught an object"
+    },
+    "scripts": {
+        "check": [
+            "phpcs -p -s --standard=phpcs.xml src/",
+            "phpstan analyze"
+        ],
+        "test": [
+            "test.bat"
+        ]
+    },
+    "support"    : {
+        "issues": "https://github.com/ItalyStrap/html/issues",
+        "source": "https://github.com/ItalyStrap/html"
+    }
+}
